@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> NO FLEX ZONE </title>
+</head>
+
+
+<body onclick="draw">
+<canvas id="sketch" width="300" height"300">
+</canvas>
+<script>
+
+var sketch = document.getElementById('sketch');
+var context = sketch.getContext("2d");
+
+function draw(){
+	   function factorial(){
+	   for(var i=0; i <=5; i = i + 1){
+   	
+
+   		 if (i == 0){
+   		 	context.fillStyle = "#2200FF"
+   		 	context.fillRect(0,0,20,20);
+   		 }
+   		 else if (i ==1){
+   		 	context.fillStyle = "#4400FF"
+   		 	context.fillRect(0,0,20,20);
+   		 	context.fillRect(25,0,20,20);
+   		 }
+   		  else if (i ==3){
+   		  	context.fillStyle = "#6600FF"
+   		 	context.fillRect(0,0,20,20);
+   		 	context.fillRect(25,0,20,20);
+   		 	context.fillRect(50,0,20,20);
+   		 }
+   		 else if (i ==4){
+   		 	context.fillStyle = "#8800FF"
+   		 	context.fillRect(0,0,20,20);
+   		 	context.fillRect(25,0,20,20);
+   		 	context.fillRect(50,0,20,20);
+   		 	context.fillRect(75,0,20,20);
+   		 }
+   		  else if (i ==5){
+   		  	context.fillStyle = "#AA00FF"
+   		 	context.fillRect(0,0,20,20);
+   		 	context.fillRect(25,0,20,20);
+   		 	context.fillRect(50,0,20,20);
+   		 	context.fillRect(75,0,20,20);
+   		 	context.fillRect(100,0,20,20);
+   		 }
+    }
+    
+}
+}
+ 
+
+
+
+	
+
+
+</script>
+</body>
+</html>

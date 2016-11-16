@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> NO FLEX ZONE </title>
+</head>
+
+
+<body onload="draw()">
+<canvas id="sketch" width="300" height="300">
+</canvas>
+<script>
+
+var sketch = document.getElementById('sketch');
+var context = sketch.getContext("2d");
+function draw(){
+
+	context.fillStyle = "#0000FF"
+	
+	context.fillRect(0,0,50,50);
+	
+	context.fillStyle = "#00FF00"
+
+
+	context.beginPath();
+	context.arc(110,,25,0,  2*Math.PI, true);
+	context.closePath();
+	context.fill();
+}
+
+</script>
+</body>
+</html>
